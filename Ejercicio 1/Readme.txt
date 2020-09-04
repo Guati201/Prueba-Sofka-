@@ -30,15 +30,15 @@ del descuento entra al if y se calcula el 30% del valor del boleto y se le resta
 indicándole el descuento, por otro lado si no cumple con las condiciones del descuento pasa al else y se le notifica el precio del boleto.
 En el archivo .Css se le dio un color de fondo a la página al título y estilo al formulario.
  
-
 COMO EJECUTAR EL ALGORITMO 
-Ya que este proyecto lo cree como emulando un formulario de una página web sencilla, el proyecto se probó 
-en la versión más actual de Google Chrome y Mozilla Firefox.
 
-Para su ejecución es necesario descargar la carpeta que se encuentra en el repositorio, verificando que
+Ya que este proyecto lo cree como emulando un formulario de una página web sencilla, el proyecto se probó 
+en la versión más reciente de Google Chrome y Mozilla Firefox.
+
+Para su ejecución es necesario descargar la carpeta que se encuentra en el repositorio como ejercicio 1, verificando que
 los archivos .html, .js y .Css se encuentren contenidos en la misma carpeta y ejecutando el archivo .html se puede acceder al algoritmo.
 
-Muchas gracias por la atención prestada 
+Muchas gracias por la atención prestada.
 
 
 
