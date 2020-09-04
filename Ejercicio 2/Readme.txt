@@ -50,10 +50,11 @@ COMO EJECUTAR EL ALGORITMO
 Ya que este proyecto lo cree como emulando un formulario de una página web sencilla, el proyecto se probó 
 en la versión más actual de Google Chrome y Mozilla Firefox.
 
-Para su ejecución es necesario descargar la carpeta que se encuentra en el repositorio, verificando que los 
+Para su ejecución es necesario descargar la carpeta ejercicio 2 que se encuentra en el repositorio, verificando que los 
 archivos .html, .js y .Css se encuentren contenidos en la misma carpeta y ejecutando el archivo .html se puede acceder al algoritmo.
 
 OBSERVACIÓN 
 La tabla solicitada de los bultos, la interprete como la muestra los datos a la salida y no una tabla predeterminada 
 con datos para ser ingresados, además esta no tiene límite de elementos salvo la limitación del peso del avión.
 
+Muchas gracias por la atención prestada.
