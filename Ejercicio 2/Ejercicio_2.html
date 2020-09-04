@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="alex">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <link rel="stylesheet" href= "vista.css" type="text/css">
+  <title>Ejercicio 2 </title>
+  <script src="javas.js"></script>
+</head>
+<body>
+<h1>Equipaje BOING 747 </h1>
+<form>
+
+    <fieldset>
+      <legend>Entrada de bultos</legend>
+      <br />
+      <p>
+        <label for="s">Ingrese el peso del bulto : </label>
+        <input id="bult" type="number" name="da" placeholder="" min="1"  />
+        <label for="d">Kg </label>
+      </p>
+
+      <button type="button" onclick="Cargar()">Agregar</button>
+
+
+    <p>
+      <label  id="lb" style="visibility: hidden" >El número de bultos ingrasados es : </label>
+      <span  id="valor"></span>
+    </p>
+
+    <p>
+      <label  id="lc" style="visibility: hidden" >El bulto más pesado, peso : </label>
+      <span  id="valor1"></span>
+    </p>
+
+    <p>
+      <label  id="ld" style="visibility: hidden" >El bulto menos pesado , peso : </label>
+      <span  id="valor2"></span>
+    </p>
+
+    <p>
+      <label  id="le" style="visibility: hidden" >El promedio de los bultos fue  : </label>
+      <span  id="valor3"></span>
+    </p>
+
+    <p>
+      <label  id="lh" style="visibility: hidden" >El ingreso por concepto de carga en pesos : </label>
+      <span  id="valor4"></span>
+    </p>
+
+    <p>
+      <label  id="lg" style="visibility: hidden" >El ingreso por concepto de carga en dolares : </label>
+      <span  id="valor5"></span>
+    </p>
+
+  </fieldset>
+</form>
+
+<form >
+<fieldset>
+  <legend>Bultos ingresados</legend>
+    <p>
+      <table id="tb" bgcolor="white" style="visibility: hidden" border="1px solid black;">
+        <tr>
+          <th>#</th>
+          <th>Peso</th>
+          <th>Peso total</th>
+          <th>Valor</th>
+          <th>Valor Total</th>
+       </tr>
+      </table>
+    </p>
+</fieldset>
+</form>
+
+</body>
+</html>

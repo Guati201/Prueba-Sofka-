@@ -1,0 +1,12 @@
+body {
+  background-color: #eee
+}
+
+h1 {
+font-family: 'Open Sans';
+font-size: 30px;
+color: blue;
+line-height: 18px;
+margin-bottom: 20px;
+text-align: center;
+}

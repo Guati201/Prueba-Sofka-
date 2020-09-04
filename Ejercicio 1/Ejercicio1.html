@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Alexander Guatibonza">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <title>Boleto de avión </title>
+  <link rel="stylesheet" href= "vista.css" type="text/css">
+  <script src="javas.js"></script>
+</head>
+<body>
+  <h1>Pasaje avión </h1>
+  <form>
+    <fieldset>
+      <legend>Calculo de boleto</legend>
+      <br />
+        <p>
+          <label for="d">Ingrese los dias de estancia: </label>
+          <input id="dist" type="number" name="da" placeholder="" min="0" size="20" required />
+          <label for="d">Km </label>
+        </p>
+        <p>
+          <label for="s">Ingrese la distancia a recorrer : </label>
+          <input id="ndias" type="number" name="nd" placeholder="" min="0" size="20" required  />
+          <label for="r">días </label>
+        </p>
+        <button type="button" onclick="Cargar()">Calcular</button>
+        <p id="valor"></p>
+
+    </fieldset>
+  </form>
+</body>
+</html>
